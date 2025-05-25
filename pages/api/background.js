@@ -5,21 +5,21 @@ const background = [
                 id: 0,
                 title: 'P.P. Savani University',
                 degree: 'MCA, Master of Computer Application',
-                detail: "Master's Degree in Master of Computer Application from P.P. Savani University, Surat.",
+                detail: "Completed Master's Degree in Master of Computer Applications (MCA) from P.P. Savani University, Surat, with a CGPA of 8.24.",
                 year: '2023-2025'
             },
             {
                 id: 1,
                 title: 'Veer Narmad South Gujarat University',
                 degree: 'BCA, Bachelor of Computer Application',
-                detail: "Completed Bachelor Computer Application from Veer Narmad South Gujarat University, Surat.",
+                detail: "Completed a Bachelor of Computer Applications from Veer Narmad South Gujarat University, Surat, with a 7.5 CGPA.",
                 year: '2020-2023'
             },
             {
                 id: 2,
                 title: 'XII Academy',
                 degree: 'HSC, Commerce Subjects',
-                detail: "Completed HSC in Commerce subjects from Samarpan Techno School, Surat.",
+                detail: "Completed Higher Secondary Certificate (HSC) in Commerce from Samarpan Techno School, Surat, with 75%.",
                 year: '2018-2019'
             },
         ]
@@ -31,7 +31,7 @@ const background = [
                 title: 'Kombee Technologies',
                 role: 'Frontend Developer',
                 url: 'https://www.kombee.com/',
-                desc: 'Senior Software Engineer | Frontend Development | Specialized in ReactJS & JavaScript and TypeScript | Seeking Full-Time Software Engineer Opportunity | HTML5, CSS, Bootstrap, TailwindCSS, Radix UI, | Result-Oriented',
+                desc: 'Software Engineer | Frontend Development | Specialized in ReactJS, NextJS & JavaScript and TypeScript | Seeking Full-Time Software Engineer Opportunity | HTML5, CSS, Bootstrap, TailwindCSS, Radix UI, | Result-Oriented | Worked on multiple projects | Dedicated to delivering high-quality code and exceptional user experiences.',
                 year: '01/2025 - Present',
                 location: 'Surat, Gujrat'
             },

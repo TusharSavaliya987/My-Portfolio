@@ -17,37 +17,34 @@ const TechStackDisplay = ({ techStackData }) => {
     (item) => item.category === activeTab
   );
 
-  const sectionId = "tech-stack-display-section";
-
   return (
-    <div className="px-2 md:px-8 py-8" id={sectionId}>
+    <div className="px-2 md:px-8 py-8">
       <h2 className="px-2 md:px-8 py-4 text-lg font-bold text-Snow text-center">
         Tech Stack
       </h2>
       <div className="flex justify-center space-x-2 mb-8">
         {techStackData.categories.map((category) => (
-          <Link
+          <button
             key={category}
-            to={sectionId}
             onClick={() => setActiveTab(category)}
-            className={`px-6 py-2.5 button ml-4 text-sm text-LightGray font-semibold rounded-lg  ease-in-out cursor-pointer
+            className={`px-6 py-2.5 button text-sm text-LightGray font-semibold rounded-lg shadow-md transition-all duration-300 ease-in-out
                             ${
                               activeTab === category
                                 ? "text-white scale-105"
-                                : "bg-MidNightBlack hover:bg-DeepNightBlack hover:text-Snow"
+                                : "bg-MidNightBlack  hover:bg-DeepNightBlack"
                             }
                         `}
           >
             {category}
-          </Link>
+          </button>
         ))}
       </div>
       {filteredTechStack.length > 0 ? (
-        <div className="grid grid-cols-2 h-[300px] sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-x-6 gap-y-8 text-center">
+        <div className="grid grid-cols-2  sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-x-6 gap-y-8 text-center">
           {filteredTechStack.map((tech) => (
             <div
               key={tech.name}
-              className="flex flex-col items-center p-4 bg-DeepNightBlack rounded-lg hover:shadow-xl transition-shadow duration-300"
+              className="flex flex-col items-center p-4 bg-DeepNightBlack rounded-lg"
             >
               <img
                 src={tech.iconUrl}
@@ -55,7 +52,8 @@ const TechStackDisplay = ({ techStackData }) => {
                 className="w-16 h-16 mb-3 object-contain"
                 onError={(e) => {
                   e.target.style.display = "none";
-                  e.target.nextSibling.style.display = "block";
+                  /* Hide if image fails to load */ e.target.nextSibling.style.display =
+                    "block";
                 }}
               />
               <div

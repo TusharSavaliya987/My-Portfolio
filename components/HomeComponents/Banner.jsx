@@ -43,7 +43,7 @@ const Banner = () => {
                   </span>
                 </div>
               </div>
-              <Link
+              {/* <Link
                 to="intro"
                 spy={true}
                 smooth={true}
@@ -52,8 +52,8 @@ const Banner = () => {
                 className="button"
               >
                 Explore
-              </Link>
-              <a href='/Tushar-Savaliya-Resume.pdf' target="_blank" rel="noopener noreferrer" className="button ml-4">Download Resume</a>
+              </Link> */}
+              <a href='/Tushar-Savaliya-Resume.pdf' target="_blank" rel="noopener noreferrer" className="button">Download Resume</a>
             </div>
             <div className="w-48 h-52 relative hidden md:block">
               <img
@@ -67,12 +67,12 @@ const Banner = () => {
 
         {/* details in row */}
         <div className="grid grid-cols-2 gap-4 md:gap-0 md:flex items-center justify-between w-full px-4 xl:px-8 2xl:px-16">
-          <div className="flex items-center gap-x-1">
+          {/* <div className="flex items-center gap-x-1">
             <span className="text-base md:text-lg text-Green font-bold">
               3+
             </span>
             <span className="text-xs text-Snow">Completed Projects</span>
-          </div>
+          </div> */}
 
           {/* <div className="flex items-center gap-x-1">
                         <span className='text-base md:text-lg text-Green font-bold'>8+</span>
@@ -84,12 +84,12 @@ const Banner = () => {
                         <span className='text-xs text-Snow'>Honors & Awards</span>
                     </div> */}
 
-          <div className="flex items-center gap-x-1">
+          {/* <div className="flex items-center gap-x-1">
             <span className="text-base md:text-lg text-Green font-bold">
               10+
             </span>
             <span className="text-xs text-Snow">Opensource Projects</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </BannerLayout>
