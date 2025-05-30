@@ -28,7 +28,7 @@ const Languages = () => {
         <div className="flex flex-row items-center justify-center space-x-6">
           <div className="flex flex-col items-center justify-center gap-y-2">
             <Progress
-              strokeColor="#1fdf64"
+              strokeColor="#146CDA"
               type="circle"
               percent={english}
               size={65}
@@ -37,7 +37,7 @@ const Languages = () => {
           </div>
           <div className="flex flex-col items-center justify-center gap-y-2">
             <Progress
-              strokeColor="#1fdf64"
+              strokeColor="#146CDA"
               type="circle"
               percent={hindi}
               size={65}
@@ -47,7 +47,7 @@ const Languages = () => {
 
           <div className="flex flex-col items-center justify-center gap-y-2">
             <Progress
-              strokeColor="#1fdf64"
+              strokeColor="#146CDA"
               type="circle"
               percent={gujarati}
               size={65}

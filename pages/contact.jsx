@@ -217,7 +217,7 @@ const Contact = () => {
         <div className="flex flex-col items-center justify-center py-4">
           {formStatus === "success" && (
             <>
-              <h1 className="text-Green font-bold text-2xl">Success!</h1>
+              <h1 className="text-Primary font-bold text-2xl">Success!</h1>
               <p className="text-Snow mt-2 text-center">
                 Your message has been sent successfully.
               </p>
